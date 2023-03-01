@@ -1,0 +1,98 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    list-style-type: none;
+    background-color: #4caf50;
+}
+
+.container{
+margin: 20px auto;
+padding-left: 15px;
+padding-right: 15px;
+background-color: #ececec;
+width: 600px;
+height: 600px;
+}
+.container .text{
+    border: 1px solid #222;
+    padding: 15px;
+}
+.container .text-input{
+    display: flex;
+    gap: 15px 15px;
+    padding-top: 10px;
+}
+.container .text-input textarea{
+    padding: 10px;
+    outline: none;
+}
+.container .row{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.container .row .left {
+    border-right: 1px solid #222;
+}
+.container .row .rigth {
+    border-left: 1px solid #222;
+}
+.container .row select{
+        border-radius: 12px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.container .controls{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    transition: .3s;
+}
+
+.container .controls i{
+    cursor: pointer;
+    margin-right: 10px;
+    color: #8bc34a;
+    margin-left: 5px;
+}
+
+.translate{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+        width: 80%;
+}
+.btn{
+display: flex;
+    gap: 40px;
+}
+.remove{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+        width: 80%;
+}
