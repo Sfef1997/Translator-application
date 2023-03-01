@@ -79,36 +79,3 @@ removeBtn.addEventListener("click",()=>{
     SelectFromText.value = ""
     SelectToText.value = ""
 });
-
-
-// function getInfo(){
-//     let myRequst = new XMLHttpRequest() ;
-// myRequst.onreadystatechange = function(){
-//     if(this.readyState === 4 && this.status === 200 ){
-//         console.log(this.responseText)
-      
-//     }
-    
-      
-//  }
-//   myRequst.open("Get","countries.json",true);
-//         myRequst.send();
-// }
-
-// getInfo()
-
-// selectEle.forEach((ele,id)=>{
-//     for(const countrey_code in  countries){
-//         let selected ;
-//         // make englich as selected langeug
-//         if(id == 0 && countrey_code == "en-GB" ){
-//             selected = "selected";
-//             // make German as selected langeug
-//         }else if(id == 1 && countrey_code == "de-DE"){
-//             selected = "selected";
-//         }
-//         // insert the countrey JS file to option list
-//         let option =`<option value ="${countrey_code}" ${selected}>  ${countries[countrey_code]} </option>`;
-//         ele.insertAdjacentHTML("beforeend",option)
-//     }
-// });
